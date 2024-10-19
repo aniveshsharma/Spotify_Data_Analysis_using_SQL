@@ -102,3 +102,16 @@ select album,
 from cte
 order by 2 desc;
 ```
+
+# Technology used
+
+* Database: PostgreSQL
+* SQL Queries: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+
+# How to run the Project
+
+1. Install Software: Make sure PostgreSQL and pgAdmin are installed on your system.
+2. Database Setup: Create the database schema and tables using the given normalization structure.
+3. Insert Data: Populate the tables with the provided sample data.
+4. Execute Queries: Run SQL queries to address the specified problems.
+5. Optimize Queries: Apply optimization techniques for handling large datasets efficiently.
