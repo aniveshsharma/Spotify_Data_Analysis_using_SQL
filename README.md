@@ -86,4 +86,18 @@ as
 		order by 1,3 desc)
 select * from ranking_artist
 where rank <=3;
+
+-- 13. Use a WITH clause to calculate the difference between the highest and lowest energy values for tracks in each album.
+
+with cte
+as
+(select album,
+		max(energy) as higest_energy,
+		min(energy) as lowest_energy
+from spotify
+group by 1)
+select album,
+		higest_energy - lowest_energy as energy_diffrence
+from cte
+order by 2 desc;
 ```
