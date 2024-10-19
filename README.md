@@ -71,3 +71,19 @@ Before diving into SQL, it’s vital to get a solid understanding of the dataset
 11. Find the top 3 most-viewed tracks for each artist using window functions.
 12. Write a query to find tracks where the liveness score is above the average.
 13. Use a WITH clause to calculate the difference between the highest and lowest energy values for tracks in each album.
+
+```sql
+-- 11. Find the top 3 most-viewed tracks for each artist using window functions.
+
+with ranking_artist
+as
+(select artist,
+		track,
+		sum(views) as total_view,
+		Dense_rank() over(partition by artist order by sum(views) desc) as rank
+		from spotify
+		group by 1,2
+		order by 1,3 desc)
+select * from ranking_artist
+where rank <=3;
+```
