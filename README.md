@@ -50,7 +50,8 @@ Before diving into SQL, it’s vital to get a solid understanding of the dataset
 
 # Finding Insights
 
-Easy Level
+## Easy Level
+
 1. Retrieve the names of all tracks that have more than 1 billion streams.
 2. List all albums along with their respective artists.
 3. Get the total number of comments for tracks where licensed = TRUE.
