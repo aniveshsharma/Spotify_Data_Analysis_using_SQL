@@ -4,3 +4,34 @@ Dataset :-  [Click here to get dataset](https://www.kaggle.com/datasets/sanjanch
 
 # Overview
 This project focuses on leveraging SQL to analyze a comprehensive Spotify dataset, encompassing details about tracks, albums, and artists. It entails transforming a denormalized dataset into a normalized structure, executing SQL queries across different complexity levels, and enhancing query efficiency. The project’s core aim is to refine advanced SQL techniques and extract meaningful insights from the dataset.
+
+```sql
+DROP TABLE IF EXISTS soptify;
+
+CREATE TABLE spotify (
+    artist VARCHAR(255),
+    track VARCHAR(255),
+    album VARCHAR(255),
+    album_type VARCHAR(50),
+    danceability FLOAT,
+    energy FLOAT,
+    loudness FLOAT,
+    speechiness FLOAT,
+    acousticness FLOAT,
+    instrumentalness FLOAT,
+    liveness FLOAT,
+    valence FLOAT,
+    tempo FLOAT,
+    duration_min FLOAT,
+    title VARCHAR(255),
+    channel VARCHAR(255),
+    views FLOAT,
+    likes BIGINT,
+    comments BIGINT,
+    licensed BOOLEAN,
+    official_video BOOLEAN,
+    stream BIGINT,
+    energy_liveness FLOAT,
+    most_played_on VARCHAR(50)
+);
+```
