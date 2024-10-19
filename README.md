@@ -58,7 +58,7 @@ Before diving into SQL, it’s vital to get a solid understanding of the dataset
 4. Find all tracks that belong to the album type single.
 5. Count the total number of tracks by each artist.
 
-Medium Level
+## Medium Level
 
 6. Calculate the average danceability of tracks in each album.
 7. Find the top 5 tracks with the highest energy values.
@@ -66,7 +66,7 @@ Medium Level
 9. For each album, calculate the total views of all associated tracks.
 10. Retrieve the track names that have been streamed on Spotify more than YouTube.
 
-Advanced Level
+## Advanced Level
 
 11. Find the top 3 most-viewed tracks for each artist using window functions.
 12. Write a query to find tracks where the liveness score is above the average.
