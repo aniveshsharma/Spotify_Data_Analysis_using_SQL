@@ -115,3 +115,7 @@ order by 2 desc;
 3. Insert Data: Populate the tables with the provided sample data.
 4. Execute Queries: Run SQL queries to address the specified problems.
 5. Optimize Queries: Apply optimization techniques for handling large datasets efficiently.
+
+# Contributing
+
+If you would like to contribute to this project, feel free to fork the repository, submit pull requests, or raise issues.
