@@ -43,6 +43,6 @@ Before diving into SQL, it’s vital to get a solid understanding of the dataset
 
 * Artist: The performer of each track.
 * Track: The song's title.
-Album: The collection that features the track.
-Album Type: Classification of the album (e.g., single or full album).
-Various Metrics: Attributes like danceability, energy, loudness, tempo, and more.
+* Album: The collection that features the track.
+* Album Type: Classification of the album (e.g., single or full album).
+* Various Metrics: Attributes like danceability, energy, loudness, tempo, and more.
